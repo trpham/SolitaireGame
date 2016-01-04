@@ -1,0 +1,181 @@
+10
+# This is a test script, containing a transcript with commands to and expected
+# outputs from java canfield.Main --text.  
+#
+# The first line (above) is removed from the input and used as
+# the --seed argument to canfield.Main.  When run with the same seed,
+# canfield.Main will produce the same sequence of deals, allowing reproducible
+# results.
+#
+# All lines starting with a "> " prompt, or starting with #, are taken to
+# be inputs to the program.  All others are taken to be expected output,
+# and compared with actual output.
+            JH --- --- ---
+
+  3S        4C  9H  JC  3H
+ ### ---  
+> u
+            JH --- --- ---
+
+  3S        4C  9H  JC  3H
+ ### ---  
+> c
+            JH --- --- ---
+
+  3S        4C  9H  JC  3H
+ ###  AC  
+> tf 3 2
+            JH  JC --- ---
+
+  QD        4C  9H  3S  3H
+ ###  AC  
+> tt 4 1
+            JH  JC --- ---
+
+  5S        4C  9H  3S  QD
+ ###  AC    3H --- --- ---
+> c
+            JH  JC --- ---
+
+  5S        4C  9H  3S  QD
+ ###  2S    3H --- --- ---
+> wt 1
+            JH  JC --- ---
+
+  5S        4C  9H  3S  QD
+ ###  3D    3H --- --- ---
+            2S --- --- ---
+> u
+            JH  JC --- ---
+
+  5S        4C  9H  3S  QD
+ ###  2S    3H --- --- ---
+> u
+            JH  JC --- ---
+
+  5S        4C  9H  3S  QD
+ ###  AC    3H --- --- ---
+> c
+            JH  JC --- ---
+
+  5S        4C  9H  3S  QD
+ ###  2S    3H --- --- ---
+> wt 1
+            JH  JC --- ---
+
+  5S        4C  9H  3S  QD
+ ###  3D    3H --- --- ---
+            2S --- --- ---
+> c
+            JH  JC --- ---
+
+  5S        4C  9H  3S  QD
+ ###  6D    3H --- --- ---
+            2S --- --- ---
+> c
+            JH  JC --- ---
+
+  5S        4C  9H  3S  QD
+ ###  KC    3H --- --- ---
+            2S --- --- ---
+> c
+            JH  JC --- ---
+
+  5S        4C  9H  3S  QD
+ ### 10D    3H --- --- ---
+            2S --- --- ---
+> c
+            JH  JC --- ---
+
+  5S        4C  9H  3S  QD
+ ###  JS    3H --- --- ---
+            2S --- --- ---
+> wf 3
+            JH  JC  JS ---
+
+  5S        4C  9H  3S  QD
+ ###  8C    3H --- --- ---
+            2S --- --- ---
+> u
+            JH  JC --- ---
+
+  5S        4C  9H  3S  QD
+ ###  JS    3H --- --- ---
+            2S --- --- ---
+> wt 3
+Error: JS must go to the foundation
+            JH  JC --- ---
+
+  5S        4C  9H  3S  QD
+ ###  JS    3H --- --- ---
+            2S --- --- ---
+> wf 3
+            JH  JC  JS ---
+
+  5S        4C  9H  3S  QD
+ ###  8C    3H --- --- ---
+            2S --- --- ---
+> wt 2
+            JH  JC  JS ---
+
+  5S        4C  9H  3S  QD
+ ###  4S    3H  8C --- ---
+            2S --- --- ---
+> u
+            JH  JC  JS ---
+
+  5S        4C  9H  3S  QD
+ ###  8C    3H --- --- ---
+            2S --- --- ---
+> u
+            JH  JC --- ---
+
+  5S        4C  9H  3S  QD
+ ###  JS    3H --- --- ---
+            2S --- --- ---
+> u
+            JH  JC --- ---
+
+  5S        4C  9H  3S  QD
+ ### 10D    3H --- --- ---
+            2S --- --- ---
+> u
+            JH  JC --- ---
+
+  5S        4C  9H  3S  QD
+ ###  KC    3H --- --- ---
+            2S --- --- ---
+> u
+            JH  JC --- ---
+
+  5S        4C  9H  3S  QD
+ ###  6D    3H --- --- ---
+            2S --- --- ---
+> u
+            JH  JC --- ---
+
+  5S        4C  9H  3S  QD
+ ###  3D    3H --- --- ---
+            2S --- --- ---
+> u
+            JH  JC --- ---
+
+  5S        4C  9H  3S  QD
+ ###  2S    3H --- --- ---
+> u
+            JH  JC --- ---
+
+  5S        4C  9H  3S  QD
+ ###  AC    3H --- --- ---
+> u
+            JH  JC --- ---
+
+  QD        4C  9H  3S  3H
+ ###  AC  
+> u
+            JH --- --- ---
+
+  3S        4C  9H  JC  3H
+ ###  AC  
+> q
+Another game? [yn] 
